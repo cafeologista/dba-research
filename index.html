@@ -9,19 +9,35 @@
 </head>
 <body>
 
-  <!-- ===== Header (fixed monochrome with logo) ===== -->
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="brand">
-      <img class="logo" src="assets/ssbm-logo.png" alt="SSBM Logo" />
+      <!-- Profile photo -->
+      <img class="profile" src="assets/profile_photo.jpg" alt="Researcher profile photo" />
+
+      <!-- Study title -->
       <div class="brand-text">
         <h1>Research: AI &amp; Kaizen in P&amp;C Insurance</h1>
         <p>Doctoral study overview &amp; participation details</p>
       </div>
+
+      <!-- SSBM logo -->
+      <img class="logo" src="assets/ssbm-logo.png" alt="SSBM Logo" />
     </div>
   </header>
 
-  <!-- ===== Content wrapper with alternating minimal gray blocks ===== -->
+  <!-- ===== MAIN CONTENT ===== -->
   <main class="content">
+
+    <!-- Invitation paragraph -->
+    <section id="invitation" class="block">
+      <div class="container">
+        <p>
+          Your organization is invited to participate in a research study being conducted for a
+          dissertation at the <strong>Swiss School of Business and Management (SSBM)</strong>.
+        </p>
+      </div>
+    </section>
 
     <section id="overview" class="block">
       <div class="container">
@@ -88,68 +104,4 @@
     </section>
 
     <section id="distribution" class="block">
-      <div class="container">
-        <h2>Survey Tool &amp; Distribution</h2>
-        <p>
-          The survey is administered online and typically takes less than 10 minutes to complete. Invitation links
-          are shared directly with eligible participants (e.g., via email or LinkedIn InMail) to help ensure that
-          only intended audiences respond.
-        </p>
-      </div>
-    </section>
-
-    <section id="forms" class="block">
-      <div class="container">
-        <h2>Downloadable Forms</h2>
-        <ul class="doc-list">
-          <li>
-            <a href="assets/organizational-consent.pdf" download>
-              Download Organizational Informed Consent (PDF)
-            </a>
-          </li>
-          <li>
-            <a href="assets/organizational-document-release.pdf" download>
-              Download Organizational Document Release (PDF)
-            </a>
-          </li>
-        </ul>
-        <p class="hint">
-          Please review the Organizational Informed Consent before completing the survey.
-          The Organizational Document Release Form is only needed if you elect to share documentation.
-        </p>
-      </div>
-    </section>
-
-    <section id="contact" class="block">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          Questions about this study or participation? Email:
-          <a href="mailto:youremail@example.com">youremail@example.com</a>
-        </p>
-      </div>
-    </section>
-
-    <section id="researcher" class="block">
-      <div class="container">
-        <h2>About the Researcher</h2>
-        <p>
-          <a href="https://cafeologista.github.io" target="_blank" rel="noopener">
-            Learn more about the Researcher
-          </a>
-        </p>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Doctoral Research Study — All rights reserved.</p>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-
+      <di
