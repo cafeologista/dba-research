@@ -40,6 +40,13 @@ body{
   border:2px solid #fff;
   padding:4px;
 }
+.brand .profile {
+  max-height: 72px;
+  border-radius: 50%;       /* circular profile photo */
+  border: 2px solid #fff;
+  background: #fff;
+  object-fit: cover;
+}
 .brand-text h1{
   margin:.1rem 0 .2rem 0;
   font-size:1.55rem;
