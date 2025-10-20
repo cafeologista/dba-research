@@ -34,13 +34,13 @@ body{
   gap:1rem;
 }
 .brand .logo{
- width: 64px;                /* smaller avatar size (like LinkedIn) */
-  height: 64px;
-  border-radius: 50%;         /* perfect circle */
-  object-fit: cover;          /* ensures the face fills the circle */
-  border: 2px solid #fff;     /* white outline matches header background */
+   width: auto;
+  max-height: 72px;
+  border-radius: 8px !important;   /* force a rounded-rectangle */
   background: #fff;
-  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  border: 2px solid #fff;
+  padding: 4px;
+  object-fit: contain;
 }
 .brand .profile {
   max-height: 72px;
