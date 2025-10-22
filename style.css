@@ -151,6 +151,16 @@ a:hover{ text-decoration:underline; }
   filter: grayscale(0%) brightness(1);
   opacity: 1;
 }
+/* Enforce small icon size */
+img.icon,
+.contact-icons img.icon,
+.contact-block img.icon {
+  width: 18px !important;
+  height: 18px !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* ===== Responsive header layout ===== */
 @media (max-width: 768px) {
   .brand {
