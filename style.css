@@ -148,4 +148,30 @@ a:hover{ text-decoration:underline; }
     font-size: 0.95rem;
   }
 }
+/* === Contact Section === */
+.contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.95rem;
+}
+
+.contact-icons .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  vertical-align: middle;
+  filter: grayscale(100%) brightness(0.8);
+  opacity: 0.8;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-icons a:hover .icon {
+  filter: grayscale(0%) brightness(1);
+  opacity: 1;
+}
+
+/* End of file */
 
