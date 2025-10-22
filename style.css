@@ -127,27 +127,6 @@ a:hover{ text-decoration:underline; }
   padding:2rem 1rem 3rem;
   background:#fff;
 }
-/* ===== Responsive header layout ===== */
-@media (max-width: 768px) {
-  .brand {
-    flex-direction: column;
-    text-align: center;
-    gap: 0.75rem;
-  }
-
-  .brand .profile,
-  .brand .logo {
-    max-height: 64px;
-  }
-
-  .brand-text h1 {
-    font-size: 1.25rem;
-  }
-
-  .brand-text p {
-    font-size: 0.95rem;
-  }
-}
 /* === Contact Section === */
 .contact-icons a {
   display: inline-flex;
@@ -172,6 +151,26 @@ a:hover{ text-decoration:underline; }
   filter: grayscale(0%) brightness(1);
   opacity: 1;
 }
+/* ===== Responsive header layout ===== */
+@media (max-width: 768px) {
+  .brand {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
 
+  .brand .profile,
+  .brand .logo {
+    max-height: 64px;
+  }
+
+  .brand-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .brand-text p {
+    font-size: 0.95rem;
+  }
+}
 /* End of file */
 
