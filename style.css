@@ -119,6 +119,37 @@ margin-top:1rem;
 border-top:1px solid transparent; /* placeholder for rhythm if needed */
 }
 
+/* Table of Contents */
+.toc-nav ul {
+list-style: none;
+padding-left: 0;
+margin: 1rem 0;
+}
+
+.toc-nav li {
+margin: 0.5rem 0;
+padding-left: 1.5rem;
+position: relative;
+}
+
+.toc-nav li::before {
+content: "→";
+position: absolute;
+left: 0;
+color: var(--link);
+font-weight: bold;
+}
+
+.toc-nav a {
+display: inline-block;
+padding: 0.25rem 0;
+transition: padding-left 0.2s ease;
+}
+
+.toc-nav a:hover {
+padding-left: 0.5rem;
+}
+
 /* Footer */
 .site-footer{
 border-top:1px solid var(--rule);
