@@ -35,7 +35,7 @@ gap:1rem;
 }
 .brand .logo{
 width: auto;
-max-height: 72px;
+max-height: 60px;
 border-radius: 8px !important; /* force a rounded-rectangle */
 background: #fff;
 border: 2px solid #fff;
@@ -158,6 +158,37 @@ color:#666;
 padding:2rem 1rem 3rem;
 background:#fff;
 }
+
+/* Sticky Home Button */
+.sticky-home {
+position: fixed;
+bottom: 2rem;
+right: 2rem;
+width: 50px;
+height: 50px;
+background: var(--link);
+color: #fff;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: bold;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+transition: background 0.3s ease, transform 0.2s ease;
+z-index: 1000;
+}
+
+.sticky-home:hover {
+background: #0a3a7a;
+transform: scale(1.1);
+text-decoration: none;
+}
+
+.sticky-home span {
+line-height: 1;
+}
 /* === Contact Section === */
 .contact-icons a {
 display: inline-flex;
@@ -200,9 +231,12 @@ text-align: center;
 gap: 0.75rem;
 }
 
-.brand .profile,
-.brand .logo {
+.brand .profile {
 max-height: 64px;
+}
+
+.brand .logo {
+max-height: 52px;
 }
 
 .brand-text h1 {
@@ -211,6 +245,14 @@ font-size: 1.25rem;
 
 .brand-text p {
 font-size: 0.95rem;
+}
+
+.sticky-home {
+bottom: 1rem;
+right: 1rem;
+width: 45px;
+height: 45px;
+font-size: 1.25rem;
 }
 }
 /* End of file */
