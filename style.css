@@ -29,7 +29,7 @@ padding:2.25rem 1rem;
 
 /* Tagline Section */
 .tagline-section {
-background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+background: linear-gradient(135deg, #3a3a3a 0%, #555555 100%);
 color: #fff;
 padding: 3rem 1rem;
 text-align: center;
@@ -88,8 +88,8 @@ color: var(--text);
 .cta-section {
 background: #fff;
 padding: 3rem 1rem;
-border-top: 3px solid var(--link);
-border-bottom: 3px solid var(--link);
+border-top: 3px solid #555;
+border-bottom: 3px solid #555;
 }
 
 .cta-box {
@@ -112,7 +112,7 @@ color: var(--muted);
 
 .cta-button {
 display: inline-block;
-background: var(--link);
+background: #3a3a3a;
 color: #fff;
 padding: 0.875rem 2rem;
 border-radius: 6px;
@@ -120,13 +120,13 @@ font-weight: 600;
 font-size: 1.05rem;
 text-decoration: none;
 transition: background 0.3s ease, transform 0.2s ease;
-box-shadow: 0 2px 8px rgba(13, 71, 161, 0.2);
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .cta-button:hover {
-background: #0a3a7a;
+background: #222;
 transform: translateY(-2px);
-box-shadow: 0 4px 12px rgba(13, 71, 161, 0.3);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 text-decoration: none;
 }
 
